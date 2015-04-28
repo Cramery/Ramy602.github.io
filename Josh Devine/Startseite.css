@@ -1,0 +1,147 @@
+ul,li{
+
+	list-style-type: none;
+	}
+	
+table h2,td,{
+	text-align:center;
+}
+
+img{
+	border:0px;
+}
+
+#titelseite{
+	font-family: 'Nosifer', cursive;
+	color:white;
+}
+	
+#menu{
+	background-color:#0A0A2A;
+	color:white;
+	height:900px;
+	width:15%;
+	float:left;
+	font-family:Comic Sans MS;
+	margin-left:0px;
+}
+
+#right{
+	color:white;
+	height:900px;
+	width:20%;
+	float:right;
+	font-family:Comic Sans MS;
+	margin-left:0px;
+	background-color:#0A0A2A;
+}
+
+#Bio{
+	height:100%;
+	width:65%;
+	float:left;
+	margin-left:0px;
+}
+
+#footer{
+	background-color:#0A0A2A;
+	color:white;
+	height:200px;
+	width:100%;
+	font-family:Comic Sans MS;
+	text-align:left;
+	font-weight:normal;
+	font-size:14px;
+	padding-left:50px;
+}
+
+#od{
+	height:900px;
+	width:35%;
+	float:left;
+	margin-left:0px;
+}
+
+#rightdisc{
+	color:white;
+	height:1500px;
+	width:20%;
+	float:right;
+	font-family:Comic Sans MS;
+	margin-left:0px;
+	background-color:#0A0A2A;
+}	
+
+#menudisc{
+	background-color:#0A0A2A;
+	color:white;
+	height:1500px;
+	width:15%;
+	float:left;
+	font-family:Comic Sans MS;
+	margin-left:0px;
+}
+
+.class1{
+	background-color:#0B3861;
+	color:white;
+}
+
+.news{
+	text-align:center;
+}
+
+.Titel{
+	padding-left:25px;
+	padding-top:25px;
+	font-family: 'Finger Paint';
+}
+
+.Text{
+	padding-left:25px;
+	padding-right:25px;
+}
+
+
+
+.Steckbrief table, .Steckbrief th, .Steckbrief,td{
+	text-align:left;
+	padding-left:15px;
+	vertical-align:top;
+}
+
+.Songs
+ {
+	width:300px;
+	text-align:left;
+	border-bottom:1px,black,solide;
+}
+
+.Name
+{
+	font-weight:bold;
+	width:170px;
+	text-align:left;
+	border-bottom:1px,black,solide;
+}
+
+.Year
+{
+	width:100px;
+	text-align:left;
+	border-bottom:1px,black,solide;
+}
+.Band
+{
+	width:100px;
+	text-align:left;
+	border-bottom:1px,black,solide;
+}
+
+
+
+a:link{color:white; text-decoration:none;}
+a:visited{color:white; text-decoration:none;}
+a:focus{color:white; text-decoration:none; font-weight:bold;}
+a:hover{color:blue; text-decoration:none; font-weight:bold;}
+a:active{color:black; background-color:blue; font-weight:bold; text-decoration:none;}
