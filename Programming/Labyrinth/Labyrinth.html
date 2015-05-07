@@ -29,9 +29,9 @@
 			<!--Zur Berechnung der Kamerabewegung-->
 
 			//--Textur
-			//var walltexture = THREE.ImageUtils.loadTexture( 'Wall.jpg' );
-			//walltexture.anisotropy = renderer.getMaxAnisotropy();
-			var material = new THREE.MeshBasicMaterial( { color: 0x00FF00} );
+			var walltexture = THREE.ImageUtils.loadTexture( 'Wall.jpg' );
+			walltexture.anisotropy = renderer.getMaxAnisotropy();
+			var material = new THREE.MeshBasicMaterial( { map: walltexture} );
 			//--Textur
 			
 			//--Boden
