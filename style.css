@@ -6,19 +6,22 @@ line-height : 1.5em;
 background : #CED8F6;
 color : #666;
 }
+
 #container {
 width : 760px;
 margin : 0 auto;
 padding : 0;
 border: 5px solid #fff;
 }
-			/*BANNER*/
+
+
 #banner {
 padding : 0;
 margin-top : 0;
 height : 130px;
 background : #2E64FE url(images/Kugel.png) no-repeat right center;
 }
+
 #banner h1 {
 text-align:center;
 margin-top : 0;
@@ -41,6 +44,7 @@ border-bottom : 5px solid #fff;
 background : #5882FA;
 color : #000;
 }
+
 #navbar a {
 float : left;
 width : 6em;
@@ -49,10 +53,12 @@ color : #000;
 background : #5882FA;
 padding : 0.5em 1em;
 }
+
 #navbar a:hover {
 background : #2E64FE;
 color : #fff;
 }
+
 #navbar li {
 display : inline;
 }
@@ -63,29 +69,26 @@ padding : 1em;
 margin-left : 230px;
 }
 
-			/*LINKS*/
 a:link, a:visited {
 color : #2E9AFE;
 background : inherit;
 text-decoration : none;
 }
+
 a:hover {
 color : #2E9AFE;
 background : inherit;
 text-decoration : none;
 }
+
 a img {
 border: 0;
 }
+
 ul li {
 list-style-type : none;
 }
-.navlist ul li {
-list-style-image : url(images/square.gif);
-padding-left : 5px;
-margin-bottom : 0;
-}
-			/*TYPOGRAPHY*/
+
 h2 {
 letter-spacing : 3px;
 font-size : 160%;
@@ -93,10 +96,6 @@ padding : 10px;
 color : #5a8f57;
 }
 
-.imgleft {
-float : left;
-padding : 10px;
-}
 .clear {
 clear : both;
 overflow : hidden;
